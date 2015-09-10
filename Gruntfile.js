@@ -28,10 +28,20 @@ module.exports = function(grunt){
 					cssDir: 'app/css'
 				}
 			}
-		}
+		},
+		//node-webkit-builder
+		nodewebkit: {
+			options: {
+				platforms: ['win'],
+				buildDir: './builds',
+				version: 'v0.12.0'
+			},
+			src: ['./app/**/*']
+    	}
 	});
 	
 	//plugins loading
 	grunt.loadNpmTasks('grunt-contrib-uglify');
 	grunt.loadNpmTasks('grunt-contrib-compass');
+	grunt.loadNpmTasks('grunt-node-webkit-builder');
 };

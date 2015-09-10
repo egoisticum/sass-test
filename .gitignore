@@ -2,3 +2,5 @@ node_modules/*
 .sass-cache/*
 app/css/*
 bower_components/*
+builds/*
+cache/*

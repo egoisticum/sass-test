@@ -1,0 +1,24 @@
+{
+  "name": "sass-test",
+  "version": "0.0.1",
+  "description": "The aim of this project is only for testing new features",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dodigovic.almir@nsoft.ba",
+  "license": "MIT",
+
+  "window": {
+    "title": "HR lutrija :: terminalna aplikacija",
+    "icon": "link.png",
+    "toolbar": false,
+    "kiosk": false,
+    "position": "mouse",
+    "min_width": 800,
+    "min_height": 600
+  },
+  "webkit": {
+    "plugin": true
+  }
+}
