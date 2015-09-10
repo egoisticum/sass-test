@@ -1,0 +1,22 @@
+{
+  "name": "sass-test",
+  "version": "0.0.0",
+  "homepage": "https://github.com/egoisticum/sass-test",
+  "authors": [
+    "egoisticum <almir.dodigovic@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-ui-router": "~0.2.15",
+    "AngularJS": "angular-latest#~1.4.5",
+    "animate.css": "~3.4.0",
+    "jquery": "~2.1.4"
+  }
+}
