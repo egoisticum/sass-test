@@ -1,0 +1,27 @@
+// ----
+// libsass (v3.2.5)
+// ----
+/*import files*/
+@import '../games/live-betting/style.scss';
+@import '../games/prematch-betting/style.scss';
+@import '../games/lucky-six/style.scss';
+@import '../variables.scss';
+body, html {
+  margin: 0;
+  padding: 0;
+}
+h1{
+  color:$brand;
+}
+
+.logo {
+  color: $brand;
+}
+
+a {
+  color: $emphasis;
+}
+
+a:hover {
+  color: $brand;
+}

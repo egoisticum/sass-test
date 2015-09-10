@@ -1,8 +1,9 @@
 module.exports = function(grunt){
-	//Do grunt-related things in here	
-	// Project configuration.
+	//do grunt-related things in here	
+	//project configuration
 	grunt.initConfig({
 		pkg: grunt.file.readJSON('package.json'),
+		//uglify plugin setup
 		uglify: {
 			options: {
 				banner: '/*! <%= pkg.name %> <%= grunt.template.today("yyyy-mm-dd") %> */\n'
@@ -12,17 +13,18 @@ module.exports = function(grunt){
 				dest: 'build/<%= pkg.name %>.min.js'
 			}
 		},
+		//compass-sass pre-processor setup
 		compass: {                  // Task 
 			dist: {                   // Target 
 				options: {              // Target options 
-					sassDir: 'app/scss',
+					sassDir: 'app/scss/general',
 					cssDir: 'app/css',
 					environment: 'production'
 				}
 			},
 			dev: {                    // Another target 
 				options: {
-					sassDir: 'app/scss',
+					sassDir: 'app/scss/general',
 					cssDir: 'app/css'
 				}
 			}

@@ -8,6 +8,10 @@
   },
   "author": "dodigovic.almir@nsoft.ba",
   "license": "MIT",
+  "window":{
+    "toolbar": false,
+    "kiosk": false //for terminal mode set on true
+  },
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-contrib-compass": "^1.0.3",
